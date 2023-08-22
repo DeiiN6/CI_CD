@@ -25,8 +25,8 @@ jobs:
           # Copy any additional static assets, e.g., CSS, images, etc.
           # cp -R assets public/
 
-          - name: Deploy to GitHub Pages
-              uses: JamesIves/github-pages-deploy-action@4.1.0
-              with:
-                branch: main
-                folder:  .
+       - name: Deploy to Github Pages
+         uses: JamesIves/github-pages-deploy-action@4.1.0
+         with: 
+           branch: main
+           folder: .
